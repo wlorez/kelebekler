@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+}
+
+.container{
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 1158px;
+    border: 1px solid rgb(55, 0, 255);
+}
+
+.blog{
+    margin-top: 30px;
+}
+
+.blog h1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
