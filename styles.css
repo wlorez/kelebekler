@@ -41,7 +41,6 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
 }
 
 .logo-color {
@@ -150,29 +149,6 @@ section {
   flex-direction: row-reverse;
 }
 
-.footer-svg {
-  margin-left: 100px;
-}
-
-.footer-genel {
-  height: 300px;
-  background-color: #faddf6;
-  display: flex;
-  align-items: center;
-  border-radius: 10px;
-  max-height: 1920px;
-}
-.footer-ul {
-  display: flex;
-  margin-left: 900px;
-  border: 1px solid rgba(172, 90, 90, 0.2);
-  padding: 15px 30px;
-  border-radius: 6px;
-  padding: 5px;
-  list-style: none;
-  display: flex;
-  gap: 10px;
-}
 
 .header-li {
   border-radius: 20px;
@@ -190,16 +166,113 @@ section {
   color: white;
 }
 
-.footer-ul-genel .logo-a {
-    color: rgb(17, 63, 124);
-    font-weight: 800;
-    font-size: 18px;
+.footer-genel {
+  height: 420px;
+  background-color: #f5e4d8;
 }
 
-.footer-ul-genel .logo-a span{
-    color: #f86b0c;
+.logo-footer {
+  margin-left: 200px;
+  display: flex;
 }
 
-.footer-ul-genel .logo-a a{
+.footer-iletisim h1{
+  color: #1100ff;
+  font-weight: 600;
+  margin-top: 60px;
+  margin-left: 100px;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
+.footer-iletisim h1 span{
+  font-weight: 300;
+}
+
+.footer-iletisim li , h4{
+  margin-left: 100px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.footer-iletisim li{
+  margin-bottom: 10px;
+}
+
+.footer-iletisim li:hover{
+  cursor: pointer;
+}
+
+
+
+
+.iletisim-form h1{
+  color: #1100ff;
+  font-weight: 600;
+  margin-top: 60px;
+  margin-left: 150px;
+  text-align: center;
+}
+
+.iletisim-form h1 span{
+  font-weight: 300;
+}
+
+
+.label-name{
+  margin-left: 250px;
+}
+
+.form{
+  display: flex;
+}
+
+/*.form label{
+
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  margin-left: 100px;
+  color: rgba(0, 0, 0, 0.6);
+  display: block;
+  margin-left: 200px;
+  position: relative;
+}*/
+
+
+.form-alt .textarea , .ad , .email{
+  display: flex;
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 170px;
+  width: 300px;
+  margin-top: 10px;
+  border-color: rgba(0, 0, 0, 0.4);
+}
+
+.form-alt .textarea{
+  height: 80px;
+  resize: none;
+}
+
+.form-alt .button-form{
+  padding: 20px 60px;
+  margin-left: 250px;
+  margin-top: 20px;
+  border-radius: 10px;
+  border-color: rgba(0, 0, 0, 0.5);
+}
+
+.form-alt .button-form:hover{
+  border-color: rgba(18, 1, 255, 0.7);
+}
+
+
+
+input:focus{
+  border-color: rgba(18, 1, 255, 1);
+  outline: none;
+}
+
+.textarea:focus{
+  border-color: rgba(18, 1, 255, 1);
+  outline: none;
+}
